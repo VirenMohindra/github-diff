@@ -1,0 +1,28 @@
+Privacy Policy for GitHub PR Helper Extension
+Last updated: 10/05/2024
+Introduction
+Your privacy is important to us. This privacy policy explains how the GitHub Diff Extension ("the Extension") handles user data and protects your privacy. By using the Extension, you agree to the terms outlined in this policy.
+
+Data Collection
+The Extension does not collect or store any personal information from users. The permissions requested, such as activeTab, scripting, and storage, are used solely to interact with GitHub pull request pages as part of the Extension's functionality.
+
+Use of Data
+- activeTab: This permission is used to interact with the active GitHub tab to analyze pull request diffs and open the diff files or raw files.
+- scripting: This permission allows the Extension to execute scripts on the GitHub page to perform the required actions (e.g., opening raw files).
+- storage: The storage permission is used to save user-customized prompts locally on their machine for sending to ChatGPT. This data is stored locally and is not shared or sent to any external server.
+
+Data Sharing
+We do not share, transmit, or sell any data from the Extension to third parties.
+
+External Links
+The Extension opens external links to third-party services like ChatGPT. When using these external services, you will be subject to their privacy policies. We encourage you to review their privacy policies when interacting with external websites.
+
+Security
+We take reasonable precautions to protect your data. However, since the Extension does not collect or store any personal data, there are no additional security risks related to personal information.
+
+Changes to This Policy
+We may update this privacy policy from time to time to reflect changes to our practices or for other operational, legal, or regulatory reasons. Any changes will be posted here with an updated effective date.
+
+Contact Us
+If you have any questions about this Privacy Policy, please contact us at:
+- Email: viren.mohindra [at] gmail [dot] com
