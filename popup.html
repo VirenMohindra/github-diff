@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Helper</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            width: 260px;
+            height: 440px;
+            background-color: #f4f7fa;
+            margin: 0;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        h1 {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        label {
+            width: 100%;
+            text-align: left;
+            font-size: 14px;
+            margin-bottom: 8px;
+            color: #333;
+        }
+        textarea {
+            width: 100%;
+            height: 240px;
+            padding: 10px;
+            font-size: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            resize: none;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            background-color: #0073e6;
+            color: white;
+            font-size: 14px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #005bb5;
+        }
+        button:focus {
+            outline: none;
+            box-shadow: 0 0 3px 2px rgba(0, 115, 230, 0.5);
+        }
+        button:active {
+            background-color: #004e99;
+        }
+    </style>
+</head>
+<body>
+    <h1>GitHub Helper</h1>
+    <label for="promptText">Edit ChatGPT Prompt:</label>
+    <textarea id="promptText">You are an expert programmer in React Native and Python. I've provided a diff file. I want you to summarize the changes and provide any helpful comments, feedback, fixes, and optimizations that can be done to the code to make it better in bullet points. I can also provide the files if needed, let me know.</textarea>
+    <button id="diffButton">Open Diff</button>
+    <button id="chatGPTButton">Open Diff in ChatGPT</button>
+    <button id="rawFilesButton">Open Raw Files</button>
+    <script src="dist/popup.js"></script>
+</body>
+</html>
